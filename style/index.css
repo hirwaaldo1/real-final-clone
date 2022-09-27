@@ -364,3 +364,42 @@ ul{
     padding: 5px;
     padding-left: 8%;
 }
+.section_6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 100px;
+}
+.section_r{
+    margin: auto;
+    padding-left: 40px;
+}
+.section_r_t{
+    font-size: 60px;
+    font-weight: 700;
+}
+.section_7{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+}
+.section_7_right{
+    background-image: url("https://www.mckinsey.com/~/media/mckinsey/home%20page/vi%20feb%202019/careers_tout_yin-yang_london_group_-5_1232x1640_bright.jpg?mw=1536");
+    background-position: center;
+    object-fit:cover;
+    background-size: cover;
+    height: 90vh;
+}
+.section_7_left{
+    margin: auto;
+}
+.section_7_left_p{
+    font-size: 50px;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+.section_7_left_p_2{
+    line-height: 30px;
+    font-size: 20px;
+}
