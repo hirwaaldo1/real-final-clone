@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "apple";
+    src: url("../fonts/FontsFree-Net-SFProText-Regular.ttf");
+}
+.header{
+    @apply flex opacity-[0.8] fixed bg-appleHeader w-[100%] pl-[10%] pr-[10%];
+
+}
+.header__item{
+    @apply opacity-[1] text-[white] m-auto text-[12.5px] 
+}
+.hero{
+    @apply bg-[black] text-white text-center pt-[85px]
+}
+.title__item--lg{
+    @apply text-[52px] font-semibold leading-[60px]
+}
+.title__item--md{
+    @apply text-[26px]
+}
+.title__item--col{
+    @apply flex justify-center align-middle gap-[30px] mt-[10px]
+}
+.title__item__text{
+    @apply text-[#2997ff] text-[20px]
+}
+.title__item_--img{
+    @apply m-auto mt-[20px] ;   
+}
+.title__item_--down{
+    @apply m-auto mt-[40px] ; 
+}
+.hero--white{
+    @apply bg-[white] text-[black] pt-[65px]
+}
+.title__item--sm{
+    @apply text-[#86868b] font-[400] text-[20px]
+}
+.title__item--img{
+    @apply w-[220px] m-auto mb-[10px] ;
+}
+.product{
+    @apply text-center grid grid-cols-2 pt-[50px] gap-[10px]
+}
+.product__item--top{
+    @apply text-center m-auto mt-[40px] w-[170px]
+}
+.product__item__text{
+    @apply text-[20px] mt-[16px] leading-4 mb-2
+}
+.product__item--down{
+    @apply w-[75%] m-auto 
+}
+.title__item__text--small{
+    @apply text-[18px] mb-3
+}
+.product__item{
+    @apply bg-[#FBFBFD]
+}

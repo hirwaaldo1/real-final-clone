@@ -1,3 +1,366 @@
+@font-face {
+    font-family: "clone";
+    src: url("../font/McKinseySans-Regular.woff2");
+}
+p{
+    margin: 0;
+    padding: 0;
+}
 body{
-    background-color: rebeccapurple;
+    font-family: "clone" ;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.nav_1{
+    background-color: transparent; 
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: 300;
+}
+.nav_1_item{
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+.nav_1_item li{
+   display: inline-flex;
+   margin-right: 2px;
+   font-size: 15px;
+}
+.header_1{
+    display: flex;
+    gap: 10px;
+
+}
+.header_1_img{
+    margin: auto;
+    height: 45px;
+    margin-right: 100px;
+}
+.header_1_list{
+    flex: 1;
+    color: white;
+    margin-top: auto;
+}
+.header_1_list li {
+    display: inline-flex;
+    margin-right: 22px;
+    cursor: pointer;
+}
+.header_1_list li:hover{
+    text-decoration: underline;
+    text-decoration-color: #006EAA;
+    text-underline-offset: 8px;
+}
+.header_1_rightside{
+    margin: auto;
+}
+.real_header{
+    position: absolute;
+    width:97%;
+    color: white;
+    padding-left: 2%;
+   
+}
+.section_1{
+    background-image: url('../img/1.PNG');
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    color: white;
+    padding-top: 180px;
+}
+.m-r{
+    margin-right: 30px;
+}
+.section_1_p_1{
+    font-weight: 600;
+    font-size: 3.35rem;
+    line-height: 3.25rem;
+    margin-bottom: 20px;
+}
+.section_1_p_2{
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+.flex_p{
+    display: flex;
+    gap: 20px;
+}
+.flex_p p ,.flex_p span {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 700;
+    font-size: 18px;
+}
+#margin_toandB{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section_1_2{
+    padding-left: 6%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #F0F0F0;
+}
+.section_1_whole{
+    display: flex;
+    gap: 60px;
+}
+.section_1_item_right{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.section_1_item_item{
+    display: flex;
+    gap: 8px;
+}
+.section_1_item_number{
+    color: #2251ff;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+.section_1_item_p{
+    border-left: 1.4px solid #2251ff;
+    padding-left: 8px;
+}
+@media only screen and (max-width:926px) {
+    .header_1_list{
+        display: none;
+    }
+    .header_1{
+        margin-top: 12px;
+    }
+    .m-r{
+        margin-right: 10px;
+    }
+    .header_1_img{
+        margin: 0 !important;
+        margin-right: 0px;
+    }
+    .section_3_img{
+        display: grid;
+        grid-template-columns:1fr !important;
+    }
+    .nav_1{
+        display: none;
+    }
+    .section_1{
+        background-image: url('../img/1.PNG');
+        height: 90vh;
+        background-position: top;
+        background-size: cover;
+        padding: 10px;
+        color: white;
+        padding-top: 120px;
+    }
+    .section_1_p_1{
+        font-weight: 600;
+        font-size: 2.35rem;
+        line-height: 2.25rem;
+        margin-bottom: 20px;
+    }
+    .section_1_p_2{
+        font-size: 1.00rem;
+        line-height: 2rem;
+        width: 90%;
+    }
+    .flex_p{
+        display: flex;
+        gap: 10px;
+    }
+    .section_1_item_right{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr;
+    }
+    .flex_p p ,.flex_p span {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    #margin_toandB{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .section_4grid{
+        display: grid;
+        grid-template-columns:1fr !important;
+    }
+    .section_5{
+        display: grid;
+        display: none !important;
+        gap: 20px;
+        grid-template-columns: 1fr !important;
+    }
+}
+.section_3_img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section_3_img_div{
+    background-image: url("https://www.mckinsey.com/~/media/mckinsey/industries/financial%20services/our%20insights/web3%20beyond%20the%20hype/web3-1370764178-bt-1536x864.jpg?mw=1536&car=2:1.4&cpx=Center&tco=200");
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+}
+.section_4_img_div{
+    background-image: url("https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/if%20youre%20going%20to%20build%20something%20from%20scratch%20this%20might%20be%20as%20good%20a%20time%20as%20in%20a%20decade/qweb-bill-gurley-1536x1536.jpg?mw=1536&car=2:1.4&cpx=Center&tco=250");
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+}
+.section_5_img_div{
+    background-image: url("https://www.mckinsey.com/~/media/mckinsey/about%20us/diversity/inclusive%20economy/inclusive-economy-thumbnail.jpg?mw=1536&car=2:1.4&cpx=Center&tco=200");
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+}
+.section_3_img_div_word{
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 25%;
+}
+.section_3_img_p1{
+    font-weight: 500;
+    font-size: 3.25rem;
+    line-height: 3.75rem;
+    font-weight: 700;
+}
+.section_3_img_p2{
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: #333;
+    margin-top: 20px;
+}
+.padd-t{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section_4{
+    text-align: center;
+}
+.section_4grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section_4_p_top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    background-color: white;
+}
+.section_4{
+    padding-top: 80px;
+}
+.section_4_p{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: .075em;
+    color: black;
+    margin-bottom: 30px;
+}
+.section_4_p_left{
+    background-image: url("../img/2.PNG");
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+    text-align: left;
+    padding-left:10%;
+    position: relative;
+}
+.section_4_p_fotter{
+    position: absolute;
+    bottom: 20px;
+}
+.section_4_p_fotter_1{
+    margin-bottom: 20px;
+}
+.section_4_p_fotter_2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.section_4_p_top_img{
+    background-image: url("https://www.mckinsey.com/~/media/mckinsey/about%20us/mckinsey%20blog/black%20owned%20brands%20eye%20unicorn%20success%20with%20mckinseys%20next%201b/next1b-hero-1536x864.jpg");
+    background-position: center;
+    object-fit:cover;
+    background-size: cover;
+    min-height: 50vh;
+}
+.section_4_p_top_footer{
+    margin-top: auto;
+    margin-bottom: 40px;
+    padding-left: 10%;
+}
+.section_4_p_fotter_3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.section_4_p_fotter_4{
+    font-size: 26px;
+    font-weight: 700;
+}
+.section_4_p_botton{
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 5%;
+    color: white;
+}
+.section_4_p_right{
+    background-color: #051C2C;
+}
+.section_5{
+    display: grid;
+    min-height: 55vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.section_5_2{
+    background-image: url("https://www.mckinsey.com/~/media/mckinsey/about%20us/mckinsey%20blog/mckinsey%20opens%20global%20decarbonization%20hub%20in%20houston%20to%20accelerate%20clean%20energy%20efforts/houston-hero-small-1536x864.jpg");
+    background-position: center;
+    object-fit:cover;
+    background-size: cover;
+}
+.section_5_4{
+    background-image: url("https://www.mckinsey.com/~/media/mckinsey/about%20us/mckinsey%20blog/mckinsey%20and%20salesforce/mckinsey-and-salesforce-team-up-1536x864.jpg");
+    background-position: center;
+    object-fit:cover;
+    background-size: cover;
+}
+.section_5_1{
+    position: relative;
+}
+.section_5_1_f{
+    position: absolute;
+    bottom: 30px;
+    left: 12%;
+}
+.section_5_p_fotter_2{
+    font-size: 23px;
+    font-weight: 700;
+}
+.section_5_3{
+    position: relative;
+
+}
+.section_5_3_forre{
+ position: absolute;
+ bottom: 0;
+}
+.pr{
+    padding-left: 8%;
+}
+.color{
+    background-color: #2251ff;
+    padding: 5px;
+    padding-left: 8%;
 }
